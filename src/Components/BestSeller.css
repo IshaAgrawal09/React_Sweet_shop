@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bestSeller {
+  margin: 5%;
+}
+.bestSeller h1 {
+  color: rgb(82, 114, 184);
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 38px;
+  margin: 4%;
+}
+.bestSellerProducts {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bestSellerProducts .singlebest {
+  text-align: center;
+  flex: 0 0 21%;
+  margin-left: 4%;
+}
+.singlebest a {
+  text-decoration: none;
+}
+.singlebest img {
+  border-radius: 5px;
+  box-shadow: 1px 1px 6px #808080;
+  width: 100%;
+  height: 200px;
+  margin: 3% 0;
+}
+.singlebest p {
+  color: black;
+  margin: 2% 0;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+@media (max-width: 730px) {
+  .bestSellerProducts .singlebest {
+    text-align: center;
+    flex: 0 0 42%;
+    margin-left: 4%;
+  }
+}

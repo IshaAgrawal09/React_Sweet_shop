@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mainSection {
+  background: url("/public/backgroundWhite.jpg");
+  margin: 4% 0 0;
+  /* background-color: #ddbcbc; */
+  padding: 2%;
+  text-align: center;
+}
+.mainSection .head1 {
+  /* background-color: rgba(243, 239, 240, 0.2); */
+  padding: 2%;
+}
+.head1 #fade {
+  text-shadow: 1px 1px 5px #808080;
+  color: rgb(43, 42, 42);
+  font-weight: 300;
+  margin-bottom: 2%;
+}
+.head1 #cursive {
+  font-family: "Dancing Script", cursive;
+  color: rgb(102, 44, 44);
+}
+
+/* OFFERS  */
+.offerDiv {
+  background-color: #f1efee;
+  /* border: 1px solid red; */
+  margin: 7% 0;
+  display: flex;
+  align-items: center;
+}
+.offerDiv .image {
+  width: 40%;
+  height: 340px;
+}
+.image img {
+  /* box-shadow: 1px 1px 7px #808080; */
+  width: 100%;
+  height: 100%;
+}
+.offerContent {
+  width: 50%;
+  text-align: center;
+  padding: 0 4%;
+  /* border: 1px solid black; */
+}
+.offerContent h1 {
+  text-shadow: 1px 1px 5px rgb(145, 165, 233);
+  font-size: 4vw;
+  margin: 4%;
+  color: rgb(82, 114, 184);
+  font-family: "Dancing Script", cursive;
+}
+.offerContent span {
+  font-weight: 900;
+  font-size: 7vw;
+}
+#buynow {
+  padding: 2.4% 5%;
+  box-shadow: 1px 1px 4px rgb(18, 27, 39);
+  border-radius: 3px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: rgb(103, 132, 194);
+  color: white;
+  border: none;
+}
+#buynow a {
+  text-decoration: none;
+}
+#buynow:hover {
+  color: rgb(82, 114, 184);
+  background: white;
+  border: 1px solid white;
+}
+
+/* TESTIMONIALS  */
+.Testimonials {
+  height: 360px;
+  background: url("/public/testimonial.webp");
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  background-size: cover;
+
+  padding: 4%;
+  text-align: center;
+}
+.Testimonials h1 {
+  font-weight: 400;
+  padding-top: 4%;
+  font-size: 45px;
+  color: rgb(82, 114, 184);
+  font-family: "Dancing Script", cursive;
+}
+.Testimonials p {
+  margin: 4%;
+  font-size: 20px;
+}
+.Testimonials h3 {
+  font-size: 28px;
+}
+
+/* FOOTER  */
+.footer {
+  margin-top: 4%;
+  padding: 2%;
+  text-align: center;
+}
+@media (max-width: 660px) {
+  .offerDiv .image {
+    width: 40%;
+    height: 240px;
+  }
+}
