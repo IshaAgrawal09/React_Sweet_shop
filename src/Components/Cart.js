@@ -61,11 +61,12 @@ const Cart = () => {
     console.log(addCart[event.currentTarget.id]["quantity"]);
 
     if (addCart[event.currentTarget.id]["quantity"] == 1) {
-      setAddCart(
-        addCart.filter((item, index) => {
-          return index != event.currentTarget.id;
-        })
-      );
+      if (window.confirm("Are you Sure? you want to delete this item!"))
+        setAddCart(
+          addCart.filter((item, index) => {
+            return index != event.currentTarget.id;
+          })
+        );
       setNumber(number - 1);
     } else {
       setAddCart(

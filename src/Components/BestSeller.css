@@ -16,6 +16,7 @@
 .bestSellerProducts {
   display: flex;
   flex-wrap: wrap;
+  
 }
 .bestSellerProducts .singlebest {
   text-align: center;

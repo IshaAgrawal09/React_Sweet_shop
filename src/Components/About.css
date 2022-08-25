@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.aboutPage {
+  margin-top: 8%;
+}
+.aboutPage h1 {
+  text-align: center;
+  color: rgb(82, 114, 184);
+  font-family: "Dancing Script", cursive;
+  font-size: 38px;
+}
+.aboutMain{
+    display: flex;
+    margin: 6% 3%;
+    align-items: center;
+}
+#aboutImg{
+    width: 40%;
+    margin-right: 10%;
+}
+.aboutMain div{
+    width: 50%;
+}
+.aboutMain div img{
+    width: 100%;
+}
+.aboutMain p{
+    line-height: 2;
+}
